@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		686B86B2306678C50014B4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 686B869C306678C30014B4CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 686B86A3306678C30014B4CB;
+			remoteInfo = "BCAD Music Player";
+		};
+		686B86BC306678C50014B4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 686B869C306678C30014B4CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 686B86A3306678C30014B4CB;
+			remoteInfo = "BCAD Music Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		686B86A4306678C30014B4CB /* BCAD Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BCAD Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		686B86B1306678C50014B4CB /* BCAD Music PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BCAD Music PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		686B86BB306678C50014B4CB /* BCAD Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BCAD Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		686B86A6306678C30014B4CB /* BCAD Music Player */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BCAD Music Player";
+			sourceTree = "<group>";
+		};
+		686B86B4306678C50014B4CB /* BCAD Music PlayerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BCAD Music PlayerTests";
+			sourceTree = "<group>";
+		};
+		686B86BE306678C50014B4CB /* BCAD Music PlayerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BCAD Music PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		686B86A1306678C30014B4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		686B86AE306678C50014B4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		686B86B8306678C50014B4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		686B869B306678C30014B4CB = {
+			isa = PBXGroup;
+			children = (
+				686B86A6306678C30014B4CB /* BCAD Music Player */,
+				686B86B4306678C50014B4CB /* BCAD Music PlayerTests */,
+				686B86BE306678C50014B4CB /* BCAD Music PlayerUITests */,
+				686B86A5306678C30014B4CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		686B86A5306678C30014B4CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				686B86A4306678C30014B4CB /* BCAD Music Player.app */,
+				686B86B1306678C50014B4CB /* BCAD Music PlayerTests.xctest */,
+				686B86BB306678C50014B4CB /* BCAD Music PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		686B86A3306678C30014B4CB /* BCAD Music Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686B86C3306678C50014B4CB /* Build configuration list for PBXNativeTarget "BCAD Music Player" */;
+			buildPhases = (
+				686B86A0306678C30014B4CB /* Sources */,
+				686B86A1306678C30014B4CB /* Frameworks */,
+				686B86A2306678C30014B4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				686B86A6306678C30014B4CB /* BCAD Music Player */,
+			);
+			name = "BCAD Music Player";
+			productName = "BCAD Music Player";
+			productReference = 686B86A4306678C30014B4CB /* BCAD Music Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		686B86B0306678C50014B4CB /* BCAD Music PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686B86C6306678C50014B4CB /* Build configuration list for PBXNativeTarget "BCAD Music PlayerTests" */;
+			buildPhases = (
+				686B86AD306678C50014B4CB /* Sources */,
+				686B86AE306678C50014B4CB /* Frameworks */,
+				686B86AF306678C50014B4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				686B86B3306678C50014B4CB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				686B86B4306678C50014B4CB /* BCAD Music PlayerTests */,
+			);
+			name = "BCAD Music PlayerTests";
+			productName = "BCAD Music PlayerTests";
+			productReference = 686B86B1306678C50014B4CB /* BCAD Music PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		686B86BA306678C50014B4CB /* BCAD Music PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686B86C9306678C50014B4CB /* Build configuration list for PBXNativeTarget "BCAD Music PlayerUITests" */;
+			buildPhases = (
+				686B86B7306678C50014B4CB /* Sources */,
+				686B86B8306678C50014B4CB /* Frameworks */,
+				686B86B9306678C50014B4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				686B86BD306678C50014B4CB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				686B86BE306678C50014B4CB /* BCAD Music PlayerUITests */,
+			);
+			name = "BCAD Music PlayerUITests";
+			productName = "BCAD Music PlayerUITests";
+			productReference = 686B86BB306678C50014B4CB /* BCAD Music PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		686B869C306678C30014B4CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					686B86A3306678C30014B4CB = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					686B86B0306678C50014B4CB = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 686B86A3306678C30014B4CB;
+					};
+					686B86BA306678C50014B4CB = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 686B86A3306678C30014B4CB;
+					};
+				};
+			};
+			buildConfigurationList = 686B869F306678C30014B4CB /* Build configuration list for PBXProject "BCAD Music Player" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 686B869B306678C30014B4CB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 686B86A5306678C30014B4CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				686B86A3306678C30014B4CB /* BCAD Music Player */,
+				686B86B0306678C50014B4CB /* BCAD Music PlayerTests */,
+				686B86BA306678C50014B4CB /* BCAD Music PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		686B86A2306678C30014B4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		686B86AF306678C50014B4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		686B86B9306678C50014B4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		686B86A0306678C30014B4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		686B86AD306678C50014B4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		686B86B7306678C50014B4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		686B86B3306678C50014B4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 686B86A3306678C30014B4CB /* BCAD Music Player */;
+			targetProxy = 686B86B2306678C50014B4CB /* PBXContainerItemProxy */;
+		};
+		686B86BD306678C50014B4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 686B86A3306678C30014B4CB /* BCAD Music Player */;
+			targetProxy = 686B86BC306678C50014B4CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		686B86C1306678C50014B4CB /* Debug configuration for PBXProject "BCAD Music Player" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		686B86C2306678C50014B4CB /* Release configuration for PBXProject "BCAD Music Player" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		686B86C4306678C50014B4CB /* Debug configuration for PBXNativeTarget "BCAD Music Player" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruslanou.BCADMusicPlayer.BCAD-Music-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		686B86C5306678C50014B4CB /* Release configuration for PBXNativeTarget "BCAD Music Player" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruslanou.BCADMusicPlayer.BCAD-Music-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		686B86C7306678C50014B4CB /* Debug configuration for PBXNativeTarget "BCAD Music PlayerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruslanou.BCADMusicPlayer.BCAD-Music-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCAD Music Player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BCAD Music Player";
+			};
+			name = Debug;
+		};
+		686B86C8306678C50014B4CB /* Release configuration for PBXNativeTarget "BCAD Music PlayerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruslanou.BCADMusicPlayer.BCAD-Music-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCAD Music Player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BCAD Music Player";
+			};
+			name = Release;
+		};
+		686B86CA306678C50014B4CB /* Debug configuration for PBXNativeTarget "BCAD Music PlayerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruslanou.BCADMusicPlayer.BCAD-Music-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BCAD Music Player";
+			};
+			name = Debug;
+		};
+		686B86CB306678C50014B4CB /* Release configuration for PBXNativeTarget "BCAD Music PlayerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPYHF95LC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruslanou.BCADMusicPlayer.BCAD-Music-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BCAD Music Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		686B869F306678C30014B4CB /* Build configuration list for PBXProject "BCAD Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686B86C1306678C50014B4CB /* Debug configuration for PBXProject "BCAD Music Player" */,
+				686B86C2306678C50014B4CB /* Release configuration for PBXProject "BCAD Music Player" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		686B86C3306678C50014B4CB /* Build configuration list for PBXNativeTarget "BCAD Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686B86C4306678C50014B4CB /* Debug configuration for PBXNativeTarget "BCAD Music Player" */,
+				686B86C5306678C50014B4CB /* Release configuration for PBXNativeTarget "BCAD Music Player" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		686B86C6306678C50014B4CB /* Build configuration list for PBXNativeTarget "BCAD Music PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686B86C7306678C50014B4CB /* Debug configuration for PBXNativeTarget "BCAD Music PlayerTests" */,
+				686B86C8306678C50014B4CB /* Release configuration for PBXNativeTarget "BCAD Music PlayerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		686B86C9306678C50014B4CB /* Build configuration list for PBXNativeTarget "BCAD Music PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686B86CA306678C50014B4CB /* Debug configuration for PBXNativeTarget "BCAD Music PlayerUITests" */,
+				686B86CB306678C50014B4CB /* Release configuration for PBXNativeTarget "BCAD Music PlayerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 686B869C306678C30014B4CB /* Project object */;
+	validationLevel = 1;
+}
