@@ -39,5 +39,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: BCADMusicPlayer-Simulator
-          path: path: build/Build/Products/Debug-iphonesimulator/BCAD Music Player.app
+          path: build/Build/Products/Debug-iphonesimulator/BCAD Music Player.app
 
