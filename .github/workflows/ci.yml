@@ -14,9 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: List available simulators
-        run: xcrun simctl list devices available
-
       - name: Run unit tests
         run: |
           xcodebuild test \
@@ -27,7 +24,7 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             SUPPORTED_PLATFORMS="iphoneos iphonesimulator" \
             SDKROOT=iphonesimulator
-            
+
       - name: Build app for Simulator
         run: |
           xcodebuild build \
