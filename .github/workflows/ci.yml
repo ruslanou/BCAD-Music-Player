@@ -1,0 +1,44 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run unit tests
+        run: |
+          xcodebuild test \
+            -project "BCAD Music Player.xcodeproj" \
+            -scheme "BCAD Music Player" \
+            -destination "platform=iOS Simulator,name=iPhone 16" \
+            -only-testing:"BCAD Music PlayerTests" \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Build app for Simulator
+        run: |
+          xcodebuild build \
+            -project "BCAD Music Player.xcodeproj" \
+            -scheme "BCAD Music Player" \
+            -destination "generic/platform=iOS Simulator" \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Zip the app
+        run: |
+          cd build/Build/Products/Debug-iphonesimulator
+          zip -r "BCADMusicPlayer-Simulator.zip" "BCAD Music Player.app"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BCADMusicPlayer-Simulator
+          path: build/Build/Products/Debug-iphonesimulator/BCADMusicPlayer-Simulator.zip
