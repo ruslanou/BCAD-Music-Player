@@ -16,16 +16,16 @@ jobs:
 
       - name: List available simulators
         run: xcrun simctl list devices available
-        
+
       - name: Run unit tests
         run: |
           xcodebuild test \
             -project "BCAD Music Player.xcodeproj" \
             -scheme "BCAD Music Player" \
-            -destination "platform=iOS Simulator,name=iPhone 16" \
+            -destination "platform=iOS Simulator,name=iPhone 16,OS=26.2" \
             -only-testing:"BCAD Music PlayerTests" \
             CODE_SIGNING_ALLOWED=NO
-
+            
       - name: Build app for Simulator
         run: |
           xcodebuild build \
