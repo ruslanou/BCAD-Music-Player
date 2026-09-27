@@ -14,12 +14,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: List available Xcode versions
-        run: ls /Applications | grep Xcode
-
-      - name: Select latest available Xcode
-        run: sudo xcode-select -switch $(ls -d /Applications/Xcode_*.app | sort -V | tail -n 1)/Contents/Developer
-
+      - name: List available simulators
+        run: xcrun simctl list devices available
+        
       - name: Run unit tests
         run: |
           xcodebuild test \
