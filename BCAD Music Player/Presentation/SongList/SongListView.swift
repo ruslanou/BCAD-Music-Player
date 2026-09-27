@@ -4,6 +4,8 @@ struct SongListView: View {
     @StateObject private var viewModel: SongListViewModel
     @State private var searchTerm: String = ""
     
+    private let initialSearchTerm: String = "David Guetta"
+    
     init(viewModel: SongListViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
@@ -21,6 +23,8 @@ struct SongListView: View {
                 Task {
                     await viewModel.search(term: searchTerm)
                 }
+            }.task {
+                await viewModel.search(term: initialSearchTerm)
             }
             .navigationTitle("Music Player")
             .overlay {
