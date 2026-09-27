@@ -34,12 +34,7 @@ jobs:
             -destination "generic/platform=iOS Simulator" \
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO
-
-      - name: Zip the app
-        run: |
-          cd build/Build/Products/Debug-iphonesimulator
-          zip -r "BCADMusicPlayer-Simulator.zip" "BCAD Music Player.app"
-
+            
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
