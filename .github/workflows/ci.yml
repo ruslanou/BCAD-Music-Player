@@ -24,7 +24,9 @@ jobs:
             -scheme "BCAD Music Player" \
             -destination "platform=iOS Simulator,name=iPhone 16,OS=26.2" \
             -only-testing:"BCAD Music PlayerTests" \
-            CODE_SIGNING_ALLOWED=NO
+            CODE_SIGNING_ALLOWED=NO \
+            SUPPORTED_PLATFORMS="iphoneos iphonesimulator" \
+            SDKROOT=iphonesimulator
             
       - name: Build app for Simulator
         run: |
