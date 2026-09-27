@@ -16,7 +16,7 @@ struct SongListView: View {
                         viewModel.selectSong(song)
                     }
             }
-            .searchable(text: $searchTerm, prompt: "Search artist")
+            .searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search artist")
             .onSubmit(of: .search) {
                 Task {
                     await viewModel.search(term: searchTerm)

@@ -30,7 +30,6 @@ final class AudioPlayerService: ObservableObject {
         }
     }
 
-
     func play(url: URL) {
         let item = AVPlayerItem(url: url)
         player.replaceCurrentItem(with: item)
@@ -48,12 +47,12 @@ final class AudioPlayerService: ObservableObject {
         player.play()
         isPlaying = true
     }
-    
+
     func seek(to seconds: Double) {
         let time = CMTime(seconds: seconds, preferredTimescale: 600)
         player.seek(to: time)
     }
-    
+
     private func loadDuration(for item: AVPlayerItem) {
         Task {
             if let loadedDuration = try? await item.asset.load(.duration) {
@@ -62,4 +61,3 @@ final class AudioPlayerService: ObservableObject {
         }
     }
 }
-
