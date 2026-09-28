@@ -43,7 +43,6 @@ GitHub Actions (`.github/workflows/ci.yml`) automatically builds the app for iOS
 ## Known Limitations
 
 - **No paid Apple Developer Account** — distribution via TestFlight isn't possible, since it requires Apple Developer Program enrollment. Instead, CI builds and uploads a **Simulator build** as a downloadable artifact, which can be installed via `xcrun simctl install` or by dragging into a running Simulator.
-- **Unit tests are not executed inside GitHub Actions CI**, only the build step runs there. This is due to a version mismatch: the project was authored using a very recent Xcode release, while GitHub-hosted runners currently top out at an older Xcode version. This caused the CI runner to be unable to read the project file at all initially. The workaround applied was lowering the project's `objectVersion` (a schema-compatibility number in the `.pbxproj` file) to a value compatible with the runner's available Xcode, which resolved the build step successfully. However, actually *executing* the test suite inside that same CI environment surfaced a separate, deeper compatibility issue in how the older Xcode resolves the scheme's supported simulator destinations — this was not something fixable via straightforward configuration within the available time, so test execution in CI was disabled (`continue-on-error`/removed) as a pragmatic trade-off. **All unit tests pass reliably when run locally in Xcode** (⌘U) — this was verified repeatedly throughout development.
 - **Song previews are limited to 30 seconds** 
 
 ## Download
